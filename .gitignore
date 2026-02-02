@@ -1,0 +1,5 @@
+*.db
+*.log
+blocked_ips.txt
+__pycache__/
+.DS_Store
