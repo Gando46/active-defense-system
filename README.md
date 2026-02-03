@@ -105,7 +105,6 @@ active-defense-system/
 ├── active_defense.py       # Main SOAR script (monitor → parse → block → log)
 ├── install.sh              # Automated environment setup
 ├── cleanup.sh              # Resets firewall and temp files
-├── test_system.sh          # Pre-flight checks
 │
 ├── config/
 │   └── local.rules         # Custom Suricata detection rules (4 signatures)
@@ -113,8 +112,6 @@ active-defense-system/
 ├── docs/
 │   └── screenshots/        # Demo screenshots for README
 │
-├── requirements.txt        # Dependencies (stdlib only — no pip install needed)
-├── LICENSE                 # MIT License
 ├── .gitignore              # Excludes .db, .log, blocked_ips.txt
 └── README.md               # This file
 ```
