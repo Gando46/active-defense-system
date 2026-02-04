@@ -11,7 +11,7 @@
 
 ---
 
-## 📸 Demo
+## 1. Demo
 
 ![Active Blocking](docs/screenshots/ips-blocking-demo.jpg)
 *Figure 1: Orchestrator detecting a ping flood and executing an automated Iptables DROP rule. Note the "Request timeout" on the attacker's terminal.*
